@@ -1,0 +1,115 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+        <!--EncryptValue Icon-->
+    <DrawingGroup x:Key="lock42d494a2085c4f42a652a2fcdec15de9_0">
+      <DrawingGroup.ClipGeometry>
+        <RectangleGeometry Rect="0,0,512,512" />
+      </DrawingGroup.ClipGeometry>
+      <GeometryDrawing Brush="#FFC8C6CD">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M388.98,127.91L388.98,283.54 321.63,283.52 321.63,130.47C321.63,113.76 314.28,98.62 302.41,87.67 290.53,76.72 274.12,69.94 256,69.94 219.75,69.94 190.37,97.04 190.37,130.47L190.37,283.5 123.02,283.5 123.02,127.91C123.02,57.27 182.56,0 256,0 329.44,0 388.98,57.27 388.98,127.91z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing Brush="#FFAEADB3">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M388.98,127.91L388.98,283.54 321.63,283.52 321.63,130.47C321.63,113.76 314.28,98.62 302.41,87.67 290.53,76.72 274.12,69.94 256,69.94L256,0C329.44,0,388.98,57.27,388.98,127.91z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing Brush="#FFFFB74F">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="72.24,203.98,367.52,308.02" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing Brush="#FFFF9A00">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="256,203.98,183.76,308.02" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <DrawingGroup>
+        <GeometryDrawing Brush="#FF9A4C00">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M361.47,348.25L336.71,365.2C318.44,338.5 288.27,322.56 256,322.56 223.73,322.56 193.56,338.5 175.29,365.2L150.53,348.25C174.4,313.38 213.83,292.56 256,292.56 298.17,292.56 337.6,313.38 361.47,348.25z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing Brush="#FF9A4C00">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M318.26,378.75L293.5,395.69C285.01,383.28 270.99,375.88 256,375.88 241.01,375.88 226.99,383.28 218.5,395.69L193.74,378.75C207.83,358.16 231.1,345.88 256,345.88 280.9,345.88 304.17,358.16 318.26,378.75z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <GeometryDrawing Brush="#FFFF8900">
+        <GeometryDrawing.Geometry>
+          <EllipseGeometry RadiusX="16.1" RadiusY="16.1" Center="256,418.52" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing Brush="#FFC06100">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M272.1,418.52C272.1,427.41,264.89,434.62,256,434.62L256,402.42C264.89,402.42,272.1,409.63,272.1,418.52z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <DrawingGroup>
+        <GeometryDrawing Brush="#FF703700">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M318.26,378.75L293.5,395.69C285.01,383.28,270.99,375.88,256,375.88L256,345.88C280.9,345.88,304.17,358.16,318.26,378.75z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing Brush="#FF703700">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M361.47,348.25L336.71,365.2C318.44,338.5,288.27,322.56,256,322.56L256,292.56C298.17,292.56,337.6,313.38,361.47,348.25z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingBrush x:Key="EncryptValueIcon" Drawing="{StaticResource lock42d494a2085c4f42a652a2fcdec15de9_0}" />
+
+    <!--DecryptValue Icon-->
+    <DrawingGroup x:Key="key8d9c0c5707ae423c93d4615cd2abcbe2_0">
+      <DrawingGroup.ClipGeometry>
+        <RectangleGeometry Rect="0,0,512,512" />
+      </DrawingGroup.ClipGeometry>
+      <GeometryDrawing Brush="#FFFFB74F">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M273.38,408.48L273.38,408.48 273.38,451.52 301.83,451.52 301.83,512 210.17,512 210.17,246.67 301.83,246.67 301.83,408.48z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing Brush="#FFFF9A00">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M273.38,408.48L273.38,408.48 273.38,451.52 301.83,451.52 301.83,512 256,512 256,246.67 301.83,246.67 301.83,408.48z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing Brush="#FFFFDBA9">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M374.752,118.752C374.752,152.109,360.91,183.55,336.547,206.016L336.547,256 175.453,256 175.453,206.016C151.09,183.55 137.248,152.109 137.248,118.752 137.248,53.269 190.517,0 256,0 321.483,0 374.752,53.269 374.752,118.752z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing Brush="#FFFFC473">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M336.547,256L256,256 256,0C321.483,0 374.752,53.269 374.752,118.752 374.752,152.109 360.91,183.55 336.547,206.016L336.547,256z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing Brush="#FFFF8900">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="208.55,208.74,30,47.26" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing Brush="#FFC06100">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="273.45,208.74,30,47.26" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing Brush="#FF9A4C00">
+        <GeometryDrawing.Geometry>
+          <EllipseGeometry RadiusX="23.441" RadiusY="23.441" Center="213.49,119.67" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing Brush="#FF703700">
+        <GeometryDrawing.Geometry>
+          <EllipseGeometry RadiusX="23.441" RadiusY="23.441" Center="298.51,119.67" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingBrush x:Key="DecryptValueIcon" Drawing="{StaticResource key8d9c0c5707ae423c93d4615cd2abcbe2_0}" />
+
+
+</ResourceDictionary>

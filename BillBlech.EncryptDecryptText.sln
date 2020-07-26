@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BillBlech.EncryptDecryptText", "BillBlech.EncryptDecryptText", "{B8DF8762-3226-486A-9382-5DC1BAF097CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillBlech.EncryptDecryptText", "BillBlech.EncryptDecryptText\BillBlech.EncryptDecryptText.csproj", "{6A90B30A-DD09-4E9D-B934-349E5E8DBF8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillBlech.EncryptDecryptText.Activities", "BillBlech.EncryptDecryptText.Activities\BillBlech.EncryptDecryptText.Activities.csproj", "{C9C26209-0E77-4403-8767-F9DFA0B6C95B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillBlech.EncryptDecryptText.Activities.Design", "BillBlech.EncryptDecryptText.Activities.Design\BillBlech.EncryptDecryptText.Activities.Design.csproj", "{1E77BECF-74B0-4C9B-8783-033CDFD1CE4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{2F55C618-646A-47AE-AA1C-190414B02839}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities", "..\Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.shproj", "{4546856D-EA50-45C6-9419-EEEACB5A80AA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities.Design", "..\Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.shproj", "{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{1e77becf-74b0-4c9b-8783-033cdfd1ce4e}*SharedItemsImports = 5
+		..\Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{4546856d-ea50-45c6-9419-eeeacb5a80aa}*SharedItemsImports = 13
+		..\Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{c9c26209-0e77-4403-8767-f9dfa0b6c95b}*SharedItemsImports = 5
+		..\Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{df9c43f0-add3-4fbf-995e-84b92f9cbf25}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A90B30A-DD09-4E9D-B934-349E5E8DBF8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A90B30A-DD09-4E9D-B934-349E5E8DBF8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A90B30A-DD09-4E9D-B934-349E5E8DBF8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A90B30A-DD09-4E9D-B934-349E5E8DBF8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9C26209-0E77-4403-8767-F9DFA0B6C95B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9C26209-0E77-4403-8767-F9DFA0B6C95B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9C26209-0E77-4403-8767-F9DFA0B6C95B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9C26209-0E77-4403-8767-F9DFA0B6C95B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E77BECF-74B0-4C9B-8783-033CDFD1CE4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E77BECF-74B0-4C9B-8783-033CDFD1CE4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E77BECF-74B0-4C9B-8783-033CDFD1CE4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E77BECF-74B0-4C9B-8783-033CDFD1CE4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A90B30A-DD09-4E9D-B934-349E5E8DBF8F} = {B8DF8762-3226-486A-9382-5DC1BAF097CC}
+		{C9C26209-0E77-4403-8767-F9DFA0B6C95B} = {B8DF8762-3226-486A-9382-5DC1BAF097CC}
+		{1E77BECF-74B0-4C9B-8783-033CDFD1CE4E} = {B8DF8762-3226-486A-9382-5DC1BAF097CC}
+		{4546856D-EA50-45C6-9419-EEEACB5A80AA} = {2F55C618-646A-47AE-AA1C-190414B02839}
+		{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25} = {2F55C618-646A-47AE-AA1C-190414B02839}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2248D17-CC9E-47D5-B8FE-39582867AA05}
+	EndGlobalSection
+EndGlobal
